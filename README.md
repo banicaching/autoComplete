@@ -26,6 +26,7 @@ Simple autoComplete function with native javascript
 - Setup div id
 - Setup prompt data (Optional)
 - Setup selected data limit (Optional)
+- Data should be JSON format
 
 ```html 
   <script type="text/javascript">
