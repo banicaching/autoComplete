@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Auto Complete</title>
+	<link href="autoComplete.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="autoComplete.js"></script>
+	<script type="text/javascript" src="cities1.json"></script>
+</head>
+<body>
+	<div id='aaa'></div>
+</body>
+</html>
+<script type="text/javascript">
+	var ac = autoComplete();
+	ac.setDivID('aaa');
+	ac.setPromptData(data);
+	ac.setLimit(3);
+</script>
